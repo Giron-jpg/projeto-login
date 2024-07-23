@@ -24,6 +24,7 @@ Desktop: 992 a 1200px
     }
     section#login > div#form{
         float: right;
+        margin-top: 80px;
         width: 60%;
     }
     section#login > div#form > h1{
@@ -53,13 +54,13 @@ Desktop: 992 a 1200px
     }
     section#login > div#form{
         float: right;
+        margin-top: 80px;
         width: 60%;
     }
     section#login > div#form > h1{
         margin-bottom: 14px;
         font-size: 2em;
         
-    
     }
     section#login > div#form > p{
         margin-bottom: 20px;

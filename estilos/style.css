@@ -81,7 +81,7 @@ form > input[type=submit]{
     background-color: #5f2c82;
     padding: 10px;
     margin-top: 18px;
-    border-radius: 12px;
+    border-radius: 4px;
     border: none;
     cursor: pointer;
 }
@@ -90,19 +90,28 @@ div.campo > label {
     display: none;
 }
 
+div.campo > input{
+    height: 100%;
+    width: calc(100% - 48px);
+    padding: 8px;
+    border-radius: 2px;
+    border: none;
+}
+
 form > div.campo{
-    background-color: #49a09d;
+    background-color: #5ebbb8b0;
     color: white;
     display: block;
-    width: 215px;
-    height: 30px;
-    border-radius: 12px;
+    width: 230px;
+    height: 40px;
+    border-radius: 4px;
     padding: 4px;
     margin: 5px auto;
 }
 
 form > div.campo > i{
-    margin-right: 6px;
+    margin-right: 2px;
+    width: 40px;
 }
 
 form > input[type=submit]:hover{
@@ -111,6 +120,10 @@ form > input[type=submit]:hover{
 
 form > a{
     display: block;
-    margin-top: 14px;
+    margin-top: 8px;
     color: #5f2c82;
+}
+
+form > a:hover{
+    color: #9762b6;
 }
