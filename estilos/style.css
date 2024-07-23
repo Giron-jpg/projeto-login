@@ -52,5 +52,22 @@ section#login > div#imagem{
 
 section#login > div#form{
     display: block;
+    text-align: center;
     padding: 16px;
+
+}
+
+section#login > div#form > h1{
+    margin-bottom: 14px;
+
+}
+section#login > div#form > p{
+    margin-bottom: 20px;
+    font-size: 0.8em;
+}
+
+section#login > div#form > form > label{
+    background-color: #5f2c82;
+    color: white;
+    padding: 2px;
 }
